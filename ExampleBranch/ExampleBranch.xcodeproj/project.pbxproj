@@ -15,6 +15,7 @@
 		90D056A11FCAF23B00D27842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D0569F1FCAF23B00D27842 /* LaunchScreen.storyboard */; };
 		90D056AC1FCAF23C00D27842 /* ExampleBranchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D056AB1FCAF23C00D27842 /* ExampleBranchTests.swift */; };
 		90D056B71FCAF23C00D27842 /* ExampleBranchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D056B61FCAF23C00D27842 /* ExampleBranchUITests.swift */; };
+		90D056C51FCAF9E600D27842 /* ExampleBranch.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 90D056C41FCAF7D200D27842 /* ExampleBranch.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		90D056B21FCAF23C00D27842 /* ExampleBranchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleBranchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D056B61FCAF23C00D27842 /* ExampleBranchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBranchUITests.swift; sourceTree = "<group>"; };
 		90D056B81FCAF23C00D27842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D056C41FCAF7D200D27842 /* ExampleBranch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleBranch.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		90D056921FCAF23B00D27842 /* ExampleBranch */ = {
 			isa = PBXGroup;
 			children = (
+				90D056C41FCAF7D200D27842 /* ExampleBranch.entitlements */,
 				90D056931FCAF23B00D27842 /* AppDelegate.swift */,
 				90D056951FCAF23B00D27842 /* ViewController.swift */,
 				90D056971FCAF23B00D27842 /* Main.storyboard */,
@@ -198,6 +201,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6A69269S39;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					90D056A61FCAF23C00D27842 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -236,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D056C51FCAF9E600D27842 /* ExampleBranch.entitlements in Resources */,
 				90D056A11FCAF23B00D27842 /* LaunchScreen.storyboard in Resources */,
 				90D0569E1FCAF23B00D27842 /* Assets.xcassets in Resources */,
 				90D056991FCAF23B00D27842 /* Main.storyboard in Resources */,
@@ -417,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExampleBranch/ExampleBranch.entitlements;
 				DEVELOPMENT_TEAM = 6A69269S39;
 				INFOPLIST_FILE = ExampleBranch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExampleBranch/ExampleBranch.entitlements;
 				DEVELOPMENT_TEAM = 6A69269S39;
 				INFOPLIST_FILE = ExampleBranch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
