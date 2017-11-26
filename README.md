@@ -1,2 +1,2 @@
 # branch-universal-link
-[test link](https://gnm4.app.link)
+[test link](https://examplebranch.app.link)
