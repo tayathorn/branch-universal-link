@@ -34,14 +34,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="how_branch_improves" translatesAutoresizingMaskIntoConstraints="NO" id="hgM-VH-0TU">
+                                <rect key="frame" x="16" y="398" width="343" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="iTQ-9g-vaC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.81176470588235294" green="0.84705882352941175" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="H3n-8N-6xi" firstAttribute="top" secondItem="s3Y-Hv-u4J" secondAttribute="bottom" constant="60" id="5In-4m-nls"/>
+                            <constraint firstItem="hgM-VH-0TU" firstAttribute="leading" secondItem="H3n-8N-6xi" secondAttribute="leading" id="DDw-wa-gEg"/>
                             <constraint firstItem="s3Y-Hv-u4J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gpf-1R-bh5"/>
                             <constraint firstItem="s3Y-Hv-u4J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Juw-eQ-J9w"/>
+                            <constraint firstItem="hgM-VH-0TU" firstAttribute="top" secondItem="H3n-8N-6xi" secondAttribute="bottom" constant="37" id="ZQe-z9-9tY"/>
                             <constraint firstItem="H3n-8N-6xi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qUP-cT-cr4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="H3n-8N-6xi" secondAttribute="trailing" id="qbx-2y-XLY"/>
+                            <constraint firstItem="hgM-VH-0TU" firstAttribute="trailing" secondItem="H3n-8N-6xi" secondAttribute="trailing" id="vWS-sP-n16"/>
                             <constraint firstItem="H3n-8N-6xi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yZV-tH-YzM"/>
                         </constraints>
                     </view>
@@ -53,5 +62,6 @@
     </scenes>
     <resources>
         <image name="apple-iphone-smartphone-desk" width="3964" height="2633"/>
+        <image name="how_branch_improves" width="1690" height="1020"/>
     </resources>
 </document>
