@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9008EE0A1FCB124700866047 /* ExampleBranch.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 90D056C41FCAF7D200D27842 /* ExampleBranch.entitlements */; };
 		90D056941FCAF23B00D27842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D056931FCAF23B00D27842 /* AppDelegate.swift */; };
 		90D056961FCAF23B00D27842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D056951FCAF23B00D27842 /* ViewController.swift */; };
 		90D056991FCAF23B00D27842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D056971FCAF23B00D27842 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		90D056A11FCAF23B00D27842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D0569F1FCAF23B00D27842 /* LaunchScreen.storyboard */; };
 		90D056AC1FCAF23C00D27842 /* ExampleBranchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D056AB1FCAF23C00D27842 /* ExampleBranchTests.swift */; };
 		90D056B71FCAF23C00D27842 /* ExampleBranchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D056B61FCAF23C00D27842 /* ExampleBranchUITests.swift */; };
-		90D056C51FCAF9E600D27842 /* ExampleBranch.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 90D056C41FCAF7D200D27842 /* ExampleBranch.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,7 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D056C51FCAF9E600D27842 /* ExampleBranch.entitlements in Resources */,
+				9008EE0A1FCB124700866047 /* ExampleBranch.entitlements in Resources */,
 				90D056A11FCAF23B00D27842 /* LaunchScreen.storyboard in Resources */,
 				90D0569E1FCAF23B00D27842 /* Assets.xcassets in Resources */,
 				90D056991FCAF23B00D27842 /* Main.storyboard in Resources */,
@@ -523,6 +523,7 @@
 				90D056BD1FCAF23C00D27842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D056BE1FCAF23C00D27842 /* Build configuration list for PBXNativeTarget "ExampleBranchTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +532,7 @@
 				90D056C01FCAF23C00D27842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D056C11FCAF23C00D27842 /* Build configuration list for PBXNativeTarget "ExampleBranchUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +541,7 @@
 				90D056C31FCAF23C00D27842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
